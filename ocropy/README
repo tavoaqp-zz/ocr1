@@ -1,0 +1,9 @@
+To install, use:
+
+    $ sudo apt-get install $(cat PACKAGES)
+    $ python setup.py download_models
+    $ sudo python setup.py install
+
+To test the recognizer, run:
+
+    $ ./run-test
